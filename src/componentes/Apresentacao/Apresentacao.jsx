@@ -7,11 +7,13 @@ export default function Apresentacao(props) {
     return(
         <section className='container-md Apresentacao' id='home'>
             <div class="row">
-                <div class="col-sm DivFoto">
-                    {/* <div className="mx-auto "> */}
-                        <img src={minhaFoto} alt="Minha Foto" title='Italo Ferreira' className='minhaFt'/>
-                    {/* </div> */}
+                <div className="col-sm DivFoto">
+                        <img src={minhaFoto} alt="Minha Foto" title='Italo Ferreira' className='minhaFt img-fluid'/>
+                    
+                        <button className='btn DivDownlaod '><strong>Download CV</strong></button>
+                    
                 </div>
+                
                 <div class="col-sm DivSaudacao">
                     <div >
                         <br/><br />

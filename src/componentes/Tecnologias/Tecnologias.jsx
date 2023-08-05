@@ -5,8 +5,9 @@ export default function Tecnologias(props) {
     return(
         <section className='container text-center DivTec' id='conhecimentos'>
             {/* <h3>Linguagens e ferramentas</h3> */}
-
+            
             <div className='row justify-content-center'>
+                
                 <Typical 
                     steps={['Linguagens...',4000,'Ferramentas...',4000]}
                     loop={Infinity}

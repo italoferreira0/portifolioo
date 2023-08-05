@@ -12,6 +12,7 @@ export default function Sobre_mim(props) {
                    
                     
                     <div>
+                        
                         <Typical
                             steps={['Sobre mim...',4000,'',1000]}
                             loop={Infinity}
@@ -22,7 +23,7 @@ export default function Sobre_mim(props) {
                         <p className='paragrafo'>Atualmente, curso Tecnologia em Telemática - Instituto Federal da Paraíba(IFPB).</p>
                         <p className='paragrafo'>Meu foco é poder ajudar a melhorar a vida das pessoas, por meio do desenvolvimento aplicações que sejam acessíveis e funcionais.</p>
                         <p className='paragrafo'>Meu nome é Italo Ferreira e adoro solucionar problemas através de códigos.</p>
-                        <p className='paragrafo'>Sou estudante de tecnologia e tualmente estou mais focado no desenvolvimento Front-End.</p>
+                        <p className='paragrafo'>Sou estudante de tecnologia e atualmente estou mais focado no desenvolvimento Front-End.</p>
                     </div>
                 </div>
                 <div class="col-sm DivP2">

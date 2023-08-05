@@ -47,5 +47,9 @@ body{
   /* background-color: rgb(143, 143, 179); */
   max-width: 100%;
   margin: 0 auto; 
-  background: linear-gradient(to right, rgb(163, 167, 170), rgb(255, 255, 255));
+  color: rgba(245, 245, 245, 0.767);
+  /* color:#282c34; */
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(75, 75, 75));
+
+  /* background: linear-gradient(to right, rgb(163, 167, 170), rgb(255, 255, 255)); */
 }
