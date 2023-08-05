@@ -1,7 +1,7 @@
 {
   "name": "new_portifolio",
   "version": "0.1.0",
-  "homepage": "https://{italoferreira0}.github.io/{portifolioo}",
+  "homepage": "https://italoferreira0.github.io/portifolioo",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
