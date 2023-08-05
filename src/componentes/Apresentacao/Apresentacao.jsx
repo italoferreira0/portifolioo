@@ -1,17 +1,20 @@
 import Typical from 'react-typical';
 import './Apresentacao.css';
+import minhaFoto from './img/eu.jpeg'
 
 export default function Apresentacao(props) {
     
     return(
         <section className='container-md Apresentacao' id='home'>
             <div class="row">
-                <div class="col-sm DivPadra01">
-                    <div>
-                    </div>
+                <div class="col-sm DivFoto">
+                    {/* <div className="mx-auto "> */}
+                        <img src={minhaFoto} alt="Minha Foto" title='Eu' className='minhaFt'/>
+                    {/* </div> */}
                 </div>
-                <div class="col-sm DivPadra02">
+                <div class="col-sm DivSaudacao">
                     <div >
+                        <br/><br />
                         <h3>Ola, eu sou Italo.</h3>
                         <Typical 
                             steps={['Bem-vindo ao meu portifólio.',4000,'',1000]}
