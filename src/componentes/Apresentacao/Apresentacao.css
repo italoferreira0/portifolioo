@@ -61,9 +61,9 @@ h3{
     width: 10rem;
     color: black;
     background-color: rgba(0, 255, 255, 0.336);
-    font-weight: bold;
     margin-top: 20px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
 }
 
 .Downlaod:hover{
@@ -72,3 +72,4 @@ h3{
     transition: 0.8s;
 
 }
+

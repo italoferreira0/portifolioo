@@ -53,3 +53,8 @@ body{
 
   /* background: linear-gradient(to right, rgb(163, 167, 170), rgb(255, 255, 255)); */
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}

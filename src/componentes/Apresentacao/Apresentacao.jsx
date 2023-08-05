@@ -1,6 +1,7 @@
 import Typical from 'react-typical';
 import './Apresentacao.css';
 import minhaFoto from './img/eu.jpeg'
+import curriculo from './curriculo.pdf'
 
 export default function Apresentacao(props) {
     
@@ -8,9 +9,9 @@ export default function Apresentacao(props) {
         <section className='container-md Apresentacao' id='home'>
             <div class="row">
                 <div className="col-sm DivFoto">
-                        <img src={minhaFoto} alt="Minha Foto" title='Italo Ferreira' className='minhaFt img-fluid'/>
+                    <img src={minhaFoto} alt="Minha Foto" title='Italo Ferreira' className='minhaFt img-fluid'/>
                     
-                        <button className='btn Downlaod mt-5 '><strong>Download CV</strong></button>
+                    <button className='btn Downlaod mt-5'><strong><a href={curriculo} download>Download CV</a></strong></button>
                     
                 </div>
                 
