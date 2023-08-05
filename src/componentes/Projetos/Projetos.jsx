@@ -6,7 +6,7 @@ export default function Projetos(props) {
     return(
         <section className='container text-center' id='projetos' >
             <Typical
-                steps={['Meus Projetos...', 4000, '', 2000]}
+                steps={['Meus Projetos...', 4000, '', 1000]}
                 loop={Infinity}
                 wrapper="h3"
             />

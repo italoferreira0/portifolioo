@@ -9,7 +9,7 @@ export default function Fale_comigo(){
             {/* <h3>Contato</h3> */}
             <div className='row justify-content-center'>
                 <Typical 
-                    steps={['Contato...',4000,'',2000]}
+                    steps={['Contato...',4000,'',1000]}
                     loop={Infinity}
                     wrapper="h3"/>
 

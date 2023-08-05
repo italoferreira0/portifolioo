@@ -9,13 +9,14 @@
 
 .LinkNav{
   margin-top: 10px;
-  margin-left:15px;
+  margin-left:20px;
   font-size: 15px;
   font-weight: bold;
   color: rgba(0, 255, 255, 0.479);
-  height: 44px;
+  height: 3rem;
   text-decoration: none;
   font-family: 'DM Sans', sans-serif;
+ 
 }
 
 .LinkNav:hover{
@@ -40,44 +41,43 @@
 
 
 .DivIcons{
-  height: 15px;
+  border: solid 1px;
+  height: 2rem;
   margin-bottom: 20px;
   margin-left: 60px;
 
 }
 
 .icon-git{
-  margin-left: 20px;
+  font-size: 30px;
+  border-radius: 5px;
   color: gray;
-  border-radius: 6px;
-  /* border: solid 1px; */
+  margin-left: 20px;
 
 }
 
 .icon-git:hover{
-  background-color: #884EA0;
-  border-radius: 15px;
+  color: #884EA0;
   transition: 0.4s;
-  color: black;
   
 }
 
 .icon-linkedin{
-  margin-left: 20px;
-  border-radius: 6px;
+  font-size: 30px;
+  border-radius: 5px;
   color: gray;
+  margin-left: 20px;
 
 }
 
 .icon-linkedin:hover{
-  border-radius: 6px;
-  background-color: #0e76a8;
-  color: black;
+  color: #0e76a8;
   transition: 0.4s;
 
 }
 
 .icon-instagram{
+  font-size: 30px;
   border-radius: 5px;
   color: gray;
   margin-left: 20px;
@@ -86,11 +86,8 @@
 
 .icon-instagram:hover{
   transition: 0.2s;
-  border-radius: 5px;
-
-  color: black;
+  color: palevioletred;
   
-  background: linear-gradient(to right, rgb(126, 67, 108), rgb(121, 65, 75));
 }
 
 

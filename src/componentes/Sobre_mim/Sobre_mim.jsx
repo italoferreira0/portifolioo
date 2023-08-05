@@ -13,7 +13,7 @@ export default function Sobre_mim(props) {
                     
                     <div>
                         <Typical
-                            steps={['Sobre mim...',4000,'',2000]}
+                            steps={['Sobre mim...',4000,'',1000]}
                             loop={Infinity}
                             wrapper="h3"
                             className=""

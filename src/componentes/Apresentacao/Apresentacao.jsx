@@ -15,7 +15,7 @@ export default function Apresentacao(props) {
                         
                         <h3>Ola, eu sou Italo.</h3>
                         <Typical 
-                            steps={['Bem-vindo ao meu portifólio.',4000,'',2000]}
+                            steps={['Bem-vindo ao meu portifólio.',4000,'',1000]}
                             loop={Infinity}
                             wrapper="h3"
                             className="subTextoAnimado"
