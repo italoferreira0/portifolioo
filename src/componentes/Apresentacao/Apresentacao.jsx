@@ -12,7 +12,6 @@ export default function Apresentacao(props) {
                 </div>
                 <div class="col-sm DivPadra02">
                     <div >
-                        
                         <h3>Ola, eu sou Italo.</h3>
                         <Typical 
                             steps={['Bem-vindo ao meu portifólio.',4000,'',1000]}
@@ -29,6 +28,9 @@ export default function Apresentacao(props) {
                             wrapper="h1"
                             className="subTextoAnimado"
                         /> */}
+
+
+
                     </div>
                 </div>
                 
