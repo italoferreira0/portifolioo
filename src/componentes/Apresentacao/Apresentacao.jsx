@@ -9,7 +9,7 @@ export default function Apresentacao(props) {
             <div class="row">
                 <div class="col-sm DivFoto">
                     {/* <div className="mx-auto "> */}
-                        <img src={minhaFoto} alt="Minha Foto" title='Eu' className='minhaFt'/>
+                        <img src={minhaFoto} alt="Minha Foto" title='Italo Ferreira' className='minhaFt'/>
                     {/* </div> */}
                 </div>
                 <div class="col-sm DivSaudacao">

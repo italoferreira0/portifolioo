@@ -42,7 +42,7 @@ h3{
 }
 
 .minhaFt{
-    border: solid 5px whitesmoke;
+    border: solid 10px rgba(0, 255, 255, 0.336);
     border-radius: 50%;
     height: 60%;
     width: 80%;
@@ -51,7 +51,7 @@ h3{
 }
 
 .minhaFt:hover{
-    border: solid 5px rgb(110, 110, 110);
-    transition: 80ms;
+    border: solid 10px aqua;
+    transition: 0.6;
     
 }
