@@ -56,18 +56,17 @@ h3{
     
 }
 
-.DivDownlaod{
+.Downlaod{
     border-radius: 12px;
     width: 10rem;
     color: black;
-    margin: auto;
     background-color: rgba(0, 255, 255, 0.336);
     font-weight: bold;
     margin-top: 20px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.DivDownlaod:hover{
+.Downlaod:hover{
     background-color: aqua;
     color: black;
     transition: 0.8s;
