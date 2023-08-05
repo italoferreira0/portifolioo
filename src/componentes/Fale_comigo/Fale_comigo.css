@@ -1,0 +1,20 @@
+.DivContato1{
+    width: 40rem;
+    height: 20rem; 
+    border: solid 1px;
+    display: inline-block;
+}
+.DivContato2{
+    width: 40rem;
+    border: solid 1px;
+    height: 20rem;
+    display: inline-block;
+    
+}
+
+.DivContato{
+    /* margin-top: 10rem; */
+    border: solid 1px;
+    margin-bottom: 10rem;
+}
+

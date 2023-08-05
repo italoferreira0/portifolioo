@@ -1,0 +1,30 @@
+
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+.Projeto {
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* border: solid 1px; */
+    background-color: rgba(128, 128, 128, 0.863);
+    height: 18rem;
+    width: 18rem;
+}
+
+
+.Projeto:hover{
+    background-color: rgba(128, 128, 128, 0.288);
+    transition: 0.50s;
+
+}
+
+#projetos{
+    margin-bottom: 10rem;
+}

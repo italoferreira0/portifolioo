@@ -1,0 +1,18 @@
+.DivTecnologias{
+    width: 40rem;
+    height: 20rem;
+    border: solid 1px;
+    /* display: inline-block; */
+}
+.DivDescricao{
+    width: 40rem;
+    border: solid 1px;
+    height: 20rem;
+    /* display: inline-block; */
+    
+}
+
+.DivTec{
+    margin-bottom: 10rem;
+    border: solid 1px;
+}

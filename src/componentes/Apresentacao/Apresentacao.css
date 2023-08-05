@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Roboto+Condensed:wght@300&display=swap');
+
+
+.DivPadra01{
+    height: 45rem; 
+    /* border: solid 1px; */
+}
+.DivPadra02{
+    height: 45rem;
+    /* border: solid 1px; */
+  
+}
+
+.subTextoAnimado{
+    margin: 2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.Apresentacao{
+    margin-top: 15rem;
+    
+}

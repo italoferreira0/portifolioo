@@ -1,0 +1,24 @@
+.DivP1{
+    /* margin-top: 10rem; */
+    height: 60rem;   
+    /* border: solid 1px; */
+}
+.DivP2{
+    /* margin-top: 10rem; */
+
+    /* border: solid 1px; */
+    height: 60rem;    
+
+}
+
+.paragrafo{  
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+body{
+    background-color: rgb(143, 143, 179);
+    max-width: 100%;
+    margin: 0 auto; 
+}
