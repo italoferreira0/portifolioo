@@ -3,11 +3,11 @@
 
 .DivPadra01{
     height: 45rem; 
-    /* border: solid 1px; */
+    border: solid 1px;
 }
 .DivPadra02{
     height: 45rem;
-    /* border: solid 1px; */
+    border: solid 1px;
   
 }
 
@@ -24,6 +24,8 @@ h3{
 }
 
 .Apresentacao{
-    margin-top: 15rem;
+    margin-top: 10rem;
+    border: solid 1px;
+    border-color: red;
     
 }

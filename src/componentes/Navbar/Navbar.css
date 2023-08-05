@@ -51,8 +51,8 @@
 .icon-git{
   font-size: 30px;
   border-radius: 5px;
-  color: gray;
-  margin-left: 20px;
+  color: rgba(0, 255, 255, 0.479);
+    margin-left: 20px;
 
 }
 
@@ -65,7 +65,7 @@
 .icon-linkedin{
   font-size: 30px;
   border-radius: 5px;
-  color: gray;
+  color: rgba(0, 255, 255, 0.479);
   margin-left: 20px;
 
 }
@@ -79,7 +79,7 @@
 .icon-instagram{
   font-size: 30px;
   border-radius: 5px;
-  color: gray;
+  color: rgba(0, 255, 255, 0.479);
   margin-left: 20px;
 
 }
