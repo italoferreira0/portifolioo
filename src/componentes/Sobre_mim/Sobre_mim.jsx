@@ -43,7 +43,7 @@ export default function Sobre_mim(props) {
                             wrapper="h1"
                             className='AnimacaoIcons'
                         />
-
+                    
                         
                         
                     </div>
