@@ -16,16 +16,65 @@ p{
     background-color: rgba(128, 128, 128, 0.863);
     height: 18rem;
     width: 18rem;
+    border-top: 8px solid aqua;
+    border-bottom: 8px solid aqua;
+    transition: 0.8s;
+    /* box-shadow: 5px 5px 5px 5px white; */
 }
 
 
 .Projeto:hover{
     background-color: rgba(128, 128, 128, 0.288);
-    transition: 0.50s;
+    transition: 0.8s;
 
 }
 
 #projetos{
     margin-bottom: 1rem;
     
+}
+
+.BotaoGit{
+    background-color: #874ea0;
+    width: 5rem;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+    transition: 0.8;
+    margin-top: 1rem;
+
+}
+
+.BotaoGit:hover{
+    background-color: #aa34ddd2;
+    transition: 0.8;
+}
+
+.BotaoLink{
+    margin-top: 1rem;
+    background-color: rgba(0, 119, 255, 0.671);
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.8;
+
+    
+}
+
+.BotaoLink:hover{
+    background-color: rgb(0, 119, 255);
+    transition: 0.8;
+
+}
+
+.TitlePojetos{
+    color: rgba(0, 0, 0, 0.562);
+    font-size: 25px;
+}
+
+
+.imgIMC{
+    width: 16rem;
+    height: 10rem;
+    border-radius: 10px;
+    border: solid;
 }
