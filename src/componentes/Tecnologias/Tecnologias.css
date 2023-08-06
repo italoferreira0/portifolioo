@@ -1,10 +1,11 @@
 .DivTecnologias{
     width: 35rem;
-    height: 20rem;
+    height: 25rem;
     /* border: solid 1px; */
     /* display: inline-block; */
 }
 .DivDescricao{
+    margin-top: 1.5rem;
     width: 35rem;
     /* border: solid 1px; */
     height: 20rem;
