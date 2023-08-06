@@ -18,10 +18,12 @@
 }
 
 .AnimacaoIcons{
-    padding-right: 100px;
+    margin-left: 40px;
+    padding-right: 20rem;
     margin-top: 6rem;
-    font-size: 18rem;
+    font-size: 14rem;
     /* color: rgba(255, 255, 255, 0.377) */
     color: #27292e;
+    
     
 }
