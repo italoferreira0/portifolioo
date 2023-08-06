@@ -49,10 +49,11 @@ body{
   margin: 0 auto; 
   color: rgba(245, 245, 245, 0.767);
   /* color:#282c34; */
-  background: linear-gradient(to right, rgb(0, 0, 0), rgb(75, 75, 75));
+  background:#27292e;
 
-  /* background: linear-gradient(to right, rgb(163, 167, 170), rgb(255, 255, 255)); */
+  /* background: rgba(255, 255, 255, 0.377) ; */
 }
+
 
 a{
   text-decoration: none;
