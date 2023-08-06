@@ -45,7 +45,12 @@
     border-radius: 22px;
 }
 
-
+#descricao{
+    font-weight: bold;
+    font-size: 40px;
+    color: aqua;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 /* #iconJS{
     height: 45px;
