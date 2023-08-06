@@ -29,7 +29,6 @@ export default function Sobre_mim(props) {
                 <div class="col-sm DivP2">
                     <div className='Apresentacao'>
 
-                        <br /><br />
                         <Typical
                             steps={[
                                '✍',3000,
