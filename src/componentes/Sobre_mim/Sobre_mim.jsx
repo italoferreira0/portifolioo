@@ -27,7 +27,7 @@ export default function Sobre_mim(props) {
                     </div>
                 </div>
                 <div class="col-sm DivP2">
-                    <div className='Apresentacao'>
+                    <div className=''>
 
                         <Typical
                             steps={[
