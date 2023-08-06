@@ -1,12 +1,12 @@
 .DivTecnologias{
     width: 35rem;
     height: 20rem;
-    border: solid 1px;
+    /* border: solid 1px; */
     /* display: inline-block; */
 }
 .DivDescricao{
     width: 35rem;
-    border: solid 1px;
+    /* border: solid 1px; */
     height: 20rem;
     /* display: inline-block; */
     
@@ -14,8 +14,40 @@
 
 .DivTec{
     margin-bottom: 10rem;
-    border: solid 1px;
+    /* border: solid 1px; */
     padding-top: 6rem;
 }
 
+.Icon{
+    margin-left: 2rem;
+    margin-top: 4rem;
+    width: 60px;
+    height: 60px;
+    transition: 0.6s;
+
+}
+
+.Icon:hover{
+    background-color: rgba(240, 255, 255, 0.123);
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+#iconBootStrap{
+   
+    background-color: white;
+    border-radius: 16px;
+}
+
+#iconBootStrap:hover{
+    border-radius: 22px;
+}
+
+
+
+/* #iconJS{
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+} */
 
