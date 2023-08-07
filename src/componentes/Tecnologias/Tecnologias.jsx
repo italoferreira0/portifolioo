@@ -65,15 +65,15 @@ export default function Tecnologias(props) {
                 <div class="col-md-4 DivTecnologias">
                         {/* <button onClick={descHTML} >teste</button> */}
                     {/* <div> */}
-                      <img src={iconHTML} onMouseEnter={descHTML} onMouseLeave={retornarDesc} id='iconHTML' className='Icon'alt="" />
-                      <img src={iconCSS} onMouseEnter={descCSS} onMouseLeave={retornarDesc} id='iconCSS' className='Icon'alt="" />
-                      <img src={iconJS} onMouseEnter={descJS} onMouseLeave={retornarDesc} id='iconJS' className='Icon'alt="" />
-                      <img src={iconREACT} onMouseEnter={descREACT} onMouseLeave={retornarDesc} id='iconREACT' className='Icon'alt="" />
+                      <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg' onClick={descHTML}  id='iconHTML' className='Icon'alt="" />
+                      <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg' onClick={descCSS}  id='iconCSS' className='Icon'alt="" />
+                      <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' onClick={descJS}  id='iconJS' className='Icon'alt="" />
+                      <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg' onClick={descREACT} id='iconREACT' className='Icon'alt="" />
                       
-                      <img src={iconBootStrap} onMouseEnter={descBootStrap} onMouseLeave={retornarDesc} id='iconBootStrap' className='Icon'alt="" />
-                      <img src={iconPython} onMouseEnter={descPython} onMouseLeave={retornarDesc} id='iconPython' className='Icon'alt="" />
-                      <img src={iconGit} onMouseEnter={descGit} onMouseLeave={retornarDesc}id='iconGit' className='Icon'alt="" />
-                      <img src={iconLinux} onMouseEnter={descLinux} onMouseLeave={retornarDesc} id='iconLinux' className='Icon'alt="" />
+                      <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg' onClick={descBootStrap}  id='iconBootStrap' className='Icon'alt="" />
+                      <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg' onClick={descPython}  id='iconPython' className='Icon'alt="" />
+                      <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg' onClick={descGit} id='iconGit' className='Icon'alt="" />
+                      <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' onClick={descLinux}  id='iconLinux' className='Icon'alt="" />
 
                     {/* </div> */}
 
@@ -82,7 +82,7 @@ export default function Tecnologias(props) {
                 
                 <div class="col-md-4 DivDescricao">
                     
-                    <h1 id='descricao' className='Descricao'></h1>
+                    <h1 id='descricao' className='Descricao'>Clique em uma skill</h1>
                 </div>
 
                 
