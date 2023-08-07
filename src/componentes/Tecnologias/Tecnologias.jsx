@@ -1,16 +1,5 @@
 import './Tecnologias.css'
 import Typical from 'react-typical'
-import iconHTML from './img/html.png'
-import iconCSS from './img/css.png'
-import iconJS from './img/js.png'
-import iconREACT from './img/react.png'
-import iconPython from './img/python.png'
-import iconBootStrap from './img/bootstrap.png'
-import iconGit from './img/git.png'
-import iconLinux from './img/linux.png'
-
-
-
 
 export default function Tecnologias(props) {
     
@@ -23,7 +12,7 @@ export default function Tecnologias(props) {
     }
 
     function descJS() {
-        document.querySelector('#descricao').innerHTML = 'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.'
+        document.querySelector('#descricao').innerHTML = 'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.'
     }
 
     function descREACT() {
@@ -31,7 +20,7 @@ export default function Tecnologias(props) {
     }
 
     function descBootStrap() {
-        document.querySelector('#descricao').innerHTML = 'Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, melhorando a experiência do usuário em um site amigável e responsivo.'
+        document.querySelector('#descricao').innerHTML = 'Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, melhorando a experiência do usuário em um site amigável e responsivo.'
     }
 
     function descPython() {
@@ -43,11 +32,7 @@ export default function Tecnologias(props) {
     }
 
     function descLinux() {
-        document.querySelector('#descricao').innerHTML = 'Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o núcleo Linux. O núcleo foi desenvolvido pelo programador finlandês Linus Torvalds, inspirado no sistema Minix.'
-    }
-
-    function retornarDesc() {
-        document.querySelector('#descricao').innerHTML = ''
+        document.querySelector('#descricao').innerHTML = 'Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o núcleo Linux.'
     }
 
     return(
@@ -69,7 +54,6 @@ export default function Tecnologias(props) {
                       <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg' onClick={descCSS}  id='iconCSS' className='Icon'alt="" />
                       <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' onClick={descJS}  id='iconJS' className='Icon'alt="" />
                       <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg' onClick={descREACT} id='iconREACT' className='Icon'alt="" />
-                      
                       <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg' onClick={descBootStrap}  id='iconBootStrap' className='Icon'alt="" />
                       <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg' onClick={descPython}  id='iconPython' className='Icon'alt="" />
                       <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg' onClick={descGit} id='iconGit' className='Icon'alt="" />
