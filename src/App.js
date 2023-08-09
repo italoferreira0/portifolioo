@@ -5,7 +5,7 @@ import Apresentacao from './componentes/Apresentacao/Apresentacao';
 import Sobre_mim from './componentes/Sobre_mim/Sobre_mim';
 import Projetos from './componentes/Projetos/Projetos';
 import Tecnologias from './componentes/Tecnologias/Tecnologias';
-import Fale_comigo from './componentes/Fale_comigo/Fale_comigo';
+import Contato from './componentes/Contato/Contato';
 
 function App() {
   
@@ -19,7 +19,7 @@ function App() {
         <Sobre_mim/>
         <Projetos/>
         <Tecnologias/>
-        <Fale_comigo/>
+        <Contato/>
       </header>
     </div>
   );
