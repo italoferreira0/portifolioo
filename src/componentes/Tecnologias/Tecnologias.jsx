@@ -3,6 +3,7 @@ import Typical from 'react-typical'
 
 export default function Tecnologias(props) {
     
+    
     function descHTML() {
         document.querySelector('#descricao').innerHTML = 'HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.'
     }
