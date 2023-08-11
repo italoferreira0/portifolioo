@@ -21,7 +21,7 @@ export default function Projetos(props) {
                     </div>
                     <div className='DivBotao'>
                         <button className='btn BotaoGit'><a href="https://github.com/italoferreira0/Calculadora_de_IMC_React.js" target='_blank'>Github</a></button>
-                        <button className='btn BotaoLink'><a href="https://italoferreira0.github.io/Calculadora_de_IMC_React.js/" target='_blank'>Link</a></button>
+                        <button className='btn BotaoLink'><a href="https://italoferreira0.github.io/Calculadora_de_IMC_React.js/" target='_blank'>Deploy</a></button>
                     </div>
                 </div>
                 <div class="col-md-4 Projeto">
